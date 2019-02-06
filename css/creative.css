@@ -356,8 +356,8 @@ header.masthead3 {
 .header3{
     padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/DSC_0277.JPG");
-  background-position: center center;
+    background-image: url("../img/DSC_0127.JPG");
+  background-position: 30% 40%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -366,7 +366,7 @@ header.masthead3 {
 .header4{
     padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/DSC_0046.JPG");
+    background-image: url("../img/DSC_0423.JPG");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -733,8 +733,14 @@ img.footer{
     padding-left: 10px;
     
 }
-.inline{
-    width: 100%;
+
+.inline-image{
+    height: 45%;
+    background-image: url(/img/DSC_0080.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
