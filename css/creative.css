@@ -4,12 +4,14 @@ body,
 html {
   width: 100%;
   height: 100%;
+  max-width: 100%;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
     font-size: 1.17em;
     font-weight: 500;
+    padding-right: 0; !important
     
 }
 
@@ -50,41 +52,9 @@ h6 {
 .bg-primary {
   background-color: #A3B86C !important;
 }
-
-.bg-img1{
-    height: 95%;
-    padding-top:13%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../img/test.jpg");
-    background-size: fill;
-    background-repeat: no-repeat;
-    
-    
-    
-}
-.bg-img2{
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../img/DSC_0346.JPG");
-    background-position: center center;
-    background-size:cover;
-    
-    
-}
-.bg-img3{
-    height: 95%;
-    padding-top:17%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../img/DSC_0080.JPG");
-    background-position: center center;
-    background-size:cover;
-    
-    
-}
-.bg-img4{
-    height: 95%;
-    padding-top: 15%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/DSC_0243_BLUR.JPG");
-    background-position: center center;
-    background-size:cover;
-    
-    
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 .darken{
@@ -438,6 +408,45 @@ header.masthead2 p {
     header.masthead2 p {
     font-size: 1.20rem;
   }
+    .bg-img1{
+    height: 100%;
+    background: url("../img/test.jpg");
+        background-clip: border-box;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+    .bg-img2{
+   height: 100%;
+        background-clip: border-box;
+    background: url("../img/DSC_0277.JPG");
+    background-position: center center;
+    background-size:cover;
+         background-repeat: no-repeat;
+    
+    
+}
+    .bg-img3{
+   height: 100%;
+        background-clip: border-box;
+    background: url("../img/DSC_0080.JPG");
+    background-position: center center;
+    background-size:cover;
+         background-repeat: no-repeat;
+    
+    
+}
+    .bg-img4{
+    height: 100%;
+        background-clip: border-box;
+    background: url("../img/DSC_0243.JPG");
+    background-position: center center;
+    background-size:cover;
+     background-repeat: no-repeat;
+    
+}
+    
 }
 
 @media (min-width: 992px) {
