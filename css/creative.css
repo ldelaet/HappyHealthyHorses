@@ -321,6 +321,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    max-height: 92%;
 }
 
 header.masthead3 {
@@ -575,6 +576,26 @@ header.masthead2 p {
   outline: none;
 }
 
+@media (max-width: 410px){
+    #mainNav .navbar-brand a{
+
+  display: none;
+    
+}
+#pageNav .navbar-brand a{
+
+  display: none;
+}
+    
+}
+
+@media (max-width: 768px){
+    .contactbar{
+    display: none;    
+}
+    
+}
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -582,6 +603,8 @@ header.masthead2 p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+    
+    
 }
 
 .text-primary {
@@ -721,7 +744,7 @@ header.masthead2 p {
     text-shadow: black 0px 0px 1px;
 }
 img.footer{
-    width: 70%;
+    width: 100%;
     height: inherit;
     display: block;
     text-align: center; 
@@ -744,6 +767,13 @@ img.footer{
 }
 
 
+.contactbar{
+    height: 80px;    
+}
 
+.inlinelogo img{
+    max-width: 100%;
+    max-height: 90%;
+}
 
 
